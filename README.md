@@ -1,6 +1,23 @@
+![bia bhaile logo]()
+
+# Bia Bhaile
+
+[text](https://link)
+
+Bia Bhaile is a website for anyone with an interest in having a littel fun in the kitchen. It's a relaxed take on a traditional cooking website.
+
+This website was designed to be viewed on multiple devices and can adapt with the users preferece. 
+
+
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+Welcome cdenning91,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 

@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100..900&family=Raleway:wght@100..900);
+
+
+/* Headings */
+
+
+.logo {
+    background: url(../images/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    max-width: 360px;
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+}
+
+ul li {
+    font-family: "Raleway", sans-serif;
+}
+
