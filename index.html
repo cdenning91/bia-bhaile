@@ -10,49 +10,28 @@
         type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
-
 <body>
     <article class="container-fluid">
-
         <!-- HEADER -->
-            <header class="container-fluid container-header col-12">
-                <div class="row no-gutters">
-                    <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="logo"></a>
-                        <div class="col-md-6">
-                            <div class="row no-gutters">
-                            <div class="col heading">
-                                <h1 class="name">Bia Bhaile </h1>
-                            </div>
-                    </div>
-                
-                    <div class="row no-gutters">
-                    <div class="col">
-
-                    <ul class="navbar">
-                        <li class="nav-item"><a href="#"><i class="fas fa-angle-right" aria-hidden="true"></i><span> Home</span></a></li>
-
-                        <li class="nav-item dropdown">
-                            <a href="#" class="list-inline dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-angle-right" aria-hidden="true"></i><span> Recipes</span></a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Irish</a>
-                                    <a class="dropdown-item" href="#">Scotch</a>
-                                    <a class="dropdown-item" href="#">Japanese</a>
-                                    <a class="dropdown-item" href="#">American</a>
-                                </div>
-                        
-                        </li>
-                        
-                        <li class="nav-item"><a href="#"><i class="fas fa-angle-right" aria-hidden="true"></i><span> Info</span></a></li>
-                        <li class="nav-item"><a href="#"><i class="fas fa-angle-right" aria-hidden="true"></i><span> Contact</span></a></li>
-                    </ul>
-                    </div>
-                </div>
+            <header class="">
+                    <a href="index.html"><img class="logo" src="assets/images/logo-sm.png" alt="logo"></a>
+                </div> 
             </header>
+            <nav class="navbar navbar-light bg-light navbar-expand-sm ">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="index.html"></a>Home</li> 
+                    <li class="nav-item mr-2"><a class="nav-link" href="about.html"></a>About</li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="recipes.html"></a>Recipes</li>
+                    <li class="nav-item mr-2 ml-auto"><a class="nav-link" href="subscribe.html"></a>Subscribe</li>
+                </ul>
+                
+            </nav>
             <!-- /. HEADER -->
             <hr>
             <!-- CALLOUT -->
-            <section class="callout-section">
-                <div class="rom">
+            <div class="row">
+                <section class="callout-section">
+                <div class="row">
                     <div class="col-12">
                         <h1 class="lead">Welcome to Bia Bhaile!</h1>
                         <p>Bia Bhaile is all about having fun in the kitchen & trying new things.</p>
@@ -64,24 +43,26 @@
 
             <!-- FEATURES -->
             <section class="features-section container-fluid">
-                <div class="row no-gutters>
-                    <div class="col-12>
-                        <h2>Recent Features</h2>
+                <div class="row no-gutters">
+                    <div class="col-12">
+                        <h2 class="feature-heading">Recent Features</h2>
+                    </div>
+                    <div class="row">
+                    <div class="feature col-sm-12 col-md-6 col-lg-4">
+                        <h4 class="feature-heading">Summer BBQ</h4>
+                        <img class="feature-image" src="assets/images/stock-image.jpg" alt="">
+                        <p><a class="btn btn-sm btn-light feature-btn" href="">Recipe</a></p>
                     </div>
                     <div class="feature col-sm-12 col-md-6 col-lg-4">
-                        <h4>Summer BBQ</h4>
+                        <h4 class="feature-heading">Iced Coffee</h4>
                         <img class="feature-image" src="assets/images/stock-image.jpg" alt="">
-                        <p><a class="btn btn-sm btn-light" href="">Recipe</a></p>
+                        <p><a class="btn btn-sm btn-light feature-btn" href="">Recipe</a></p>
                     </div>
-                    <div class="feature col-sm-12 col-md-6 col-lg-4">
-                        <h4>Iced Coffee</h4>
+                    <div class="feature col-sm-12 d-md-none d-lg-block col-lg-4">
+                        <h4 class="feature-heading">Beef Stew</h4>
                         <img class="feature-image" src="assets/images/stock-image.jpg" alt="">
-                        <p><a class="btn btn-sm btn-light" href="">Recipe</a></p>
+                        <p><a class="btn btn-sm btn-light feature-btn" href="">Recipe</a></p>
                     </div>
-                    <div class="feature col-sm-12 col-md-6 col-lg-4">
-                        <h4>Beef Stew</h4>
-                        <img class="feature-image" src="assets/images/stock-image.jpg" alt="">
-                        <p><a class="btn btn-sm btn-light" href="">Recipe</a></p>
                     </div>
                 </div>
             </section> 
@@ -90,7 +71,13 @@
 
     
     <footer>
-        <small class="footer-note text-muted">All recipes on Bia Bhaile are our own creations. Please feel free to download these & share with your friends but we do ask that you credit Bia Bhaile when sharing publically </small>
+        <div class="row">
+            <p class="navbar-text my-auto mr-2 footer-subscribe">Want to try more recipes?</p><a href="/subscribe">Subcripe</a>
+        </div>
+        <br>
+        <div class="row">
+            <small class="footer-note text-muted">All recipes on Bia Bhaile are our own creations. Please feel free to download these & share with your friends but we do ask that you credit Bia Bhaile when sharing publically </small>
+        </div>
     </footer>
     </article>
 </body>

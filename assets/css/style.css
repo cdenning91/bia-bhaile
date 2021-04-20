@@ -19,9 +19,14 @@ body {
 
 header {
     background-color: #fad02c;
-    padding: 30px;
-    margin: 0px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+header img {
     position: relative;
+    max-width: 50%;
+    max-height: 50%;
 }
 
 .container-heading {
@@ -32,17 +37,12 @@ header {
    
 }
 
-
 .logo {
-    background: url(../images/logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 360px;
-    max-width: 360px;
+    padding: 0;
 }
-
-
 
 h1 {
     font-family: "Raleway", sans-serif;
@@ -60,15 +60,6 @@ h4 {
 }
 
 
-
-ul {
-    float: none;
-    position: relative;
-    display: inline-block;
-}
-
-
-
 ul li {
     font-family: "Raleway", sans-serif;
     color: black;
@@ -84,13 +75,13 @@ ul li a {
 .navbar {
     margin-bottom: 0;
     border: 0;
-    width: 100%;
 }
 
 .nav-item {
     list-style: none;
-    text-decoration: none;
 }
+
+
 
 
 
@@ -98,11 +89,39 @@ ul li a {
 /* FEATURES */
 
 .feature {
-    padding: 5px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.feature img {
+    max-width: 75%;
+}
+
+.feature-heading {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* BUTTONS*/
+
+.feature-btn {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 2px 5px;
+    margin: 10px;
 }
 
 
 /* FOOTER */
+
+.footer-subscribe {
+    list-style: none;
+    font-family: "Lato", sans-serif;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
 
 .footer-note {
     margin: 0;
