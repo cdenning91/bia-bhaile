@@ -60,14 +60,6 @@ h4 {
 }
 
 
-ul li {
-    font-family: "Raleway", sans-serif;
-    color: black;
-}
-
-ul li a {
-    color: black;
-}
 
 /* Navbar */
 
@@ -75,10 +67,28 @@ ul li a {
 .navbar {
     margin-bottom: 0;
     border: 0;
+    background-color: #fad02c;
+    padding-left: 20px;
+    font-size: 20px;
 }
 
 .nav-item {
     list-style: none;
+    padding: 5px;
+}
+
+.nav-link {
+    padding: 5px;
+}
+
+
+ul li {
+    font-family: "Raleway", sans-serif;
+    color: black;
+}
+
+ul li a {
+    color: black;
 }
 
 
