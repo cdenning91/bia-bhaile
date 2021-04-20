@@ -1,9 +1,17 @@
 @import url(https://fonts.googleapis.com/css2?family=Lato:wght@100..900&family=Raleway:wght@100..900);
 
+/*
+
+/* Colours */
+
+
+
+
+
 
 /* Headings */
 
-
+/* 
 .logo {
     background: url(../images/logo.png);
     background-position: center;
@@ -11,6 +19,8 @@
     background-size: cover;
     min-height: 360px;
     max-width: 360px;
+}
+*/
 
 h1 {
     font-family: "Raleway", sans-serif;
@@ -22,7 +32,45 @@ h2 {
     font-weight: 300;
 }
 
-ul li {
-    font-family: "Raleway", sans-serif;
+/*
+
+ul {
+    float: right;
+    position: relative;
+    display: inline-block;
 }
 
+*/
+
+ul li {
+    font-family: "Raleway", sans-serif;
+    color: black;
+}
+
+ul li a {
+    color: black;
+}
+
+/* Navbar */
+
+/* 
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: #fad02c;
+}
+
+.nav-item {
+    list-style: none;
+    text-decoration: none;
+}
+
+*/
+
+
+/* Features */
+
+.features {
+   
+}
