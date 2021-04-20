@@ -1,6 +1,12 @@
 @import url(https://fonts.googleapis.com/css2?family=Lato:wght@100..900&family=Raleway:wght@100..900);
 
-/*
+
+body {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+
 
 /* Colours */
 
@@ -11,16 +17,32 @@
 
 /* Headings */
 
-/* 
+header {
+    background-color: #fad02c;
+    padding: 30px;
+    margin: 0px;
+    position: relative;
+}
+
+.container-heading {
+
+}
+
+.heading {
+   
+}
+
+
 .logo {
     background: url(../images/logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    max-height: 360px;
     max-width: 360px;
 }
-*/
+
+
 
 h1 {
     font-family: "Raleway", sans-serif;
@@ -32,15 +54,20 @@ h2 {
     font-weight: 300;
 }
 
-/*
+h4 {
+   font-family: "Raleway", sans-serif;
+   font-weight: 200; 
+}
+
+
 
 ul {
-    float: right;
+    float: none;
     position: relative;
     display: inline-block;
 }
 
-*/
+
 
 ul li {
     font-family: "Raleway", sans-serif;
@@ -53,12 +80,11 @@ ul li a {
 
 /* Navbar */
 
-/* 
+
 .navbar {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: #fad02c;
 }
 
 .nav-item {
@@ -66,11 +92,20 @@ ul li a {
     text-decoration: none;
 }
 
-*/
 
 
-/* Features */
 
-.features {
-   
+/* FEATURES */
+
+.feature {
+    padding: 5px;
+}
+
+
+/* FOOTER */
+
+.footer-note {
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
 }
