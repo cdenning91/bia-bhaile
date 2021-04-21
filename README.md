@@ -8,6 +8,14 @@ Bia Bhaile is a website for anyone with an interest in having a littel fun in th
 
 This website was designed to be viewed on multiple devices and can adapt with the users preferece. 
 
+Troubleshooting
+
+issue with hover dropdown
+https://bootstrap-menu.com/detail-basic-hover.html
+
+issue with toggle nav not showing on smaller screens
+https://stackoverflow.com/questions/36544961/bootstrap-navbar-toggle-not-showing-in-mobile
+
 
 
 
