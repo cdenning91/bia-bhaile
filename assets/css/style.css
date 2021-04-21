@@ -23,6 +23,8 @@ header {
     margin: 0;
 }
 
+/*
+
 header img {
     position: relative;
     max-width: 50%;
@@ -44,6 +46,8 @@ header img {
     padding: 0;
 }
 
+*/
+
 h1 {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
@@ -63,6 +67,7 @@ h4 {
 
 /* Navbar */
 
+/* 
 
 .navbar {
     margin-bottom: 0;
@@ -91,8 +96,7 @@ ul li a {
     color: black;
 }
 
-
-
+*/
 
 
 
