@@ -71,33 +71,50 @@ h4 {
     font-size: 20px;
     padding-top: 0;
     padding-bottom: 0;
-    padding-left: 10px;
+    padding-left: 15px;
     padding-right: 15px;
     text-transform: uppercase;
 }
+
+
+
+
 
 .nav-item {
     list-style: none;
     padding: 5px;
 }
 
+
+
 .nav-link {
+    text-align: center;
+    color: black;
     padding: 5px;
 }
 
 .nav-link:hover {
     color: white;
+    text-decoration: underline;
+    padding: 3px;
 }
 
 .dropdown:hover .dropdown-menu {
     display: block;
-    margin-top: 0; // remove the gap so it doesn't close
+    margin-top: 0;
  }
 
  .dropdown-menu {
     background-color: rgba(0, 0, 0, 0.1);
     color: black;
  }
+
+ .dropdown-item:hover {
+     color: white;
+     background-color: transparent;
+     text-decoration: underline;
+ }
+
 
 
 ul li {
@@ -155,3 +172,4 @@ footer a {
     padding-bottom: 20px;
     text-align: center;
 }
+
