@@ -10,7 +10,7 @@ body {
 /* Buttons */
 
 .btn {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
     text-align: center;
     width: 20%;
 }
@@ -88,7 +88,8 @@ h4 {
 
 .nav-item {
     list-style: none;
-    padding: 5px;
+    padding: 10px;
+    font-weight: 500;
 }
 
 
@@ -96,11 +97,10 @@ h4 {
 .nav-link {
     text-align: center;
     color: black;
-    padding: 5px;
-}
+    padding: 5px;}
 
 .nav-link:hover {
-    color: white;
+    color: black;
     text-decoration: underline;
     padding: 3px;
 }
@@ -108,19 +108,27 @@ h4 {
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
- }
-
- .dropdown-menu {
-    background-color: rgba(0, 0, 0, 0.1);
     color: black;
  }
 
+ .dropdown-menu {
+    background-color: #fff);
+    color: black;
+    border: 0.1em;
+    border-color: rgba(0, 0, 0, 0.2);
+
+ }
+
  .dropdown-item:hover {
-     color: white;
-     background-color: transparent;
+     color: black;
+     background-color: rgba(0, 0, 0, 0.1);
      text-decoration: underline;
  }
 
+ .dropdown-toggle::after {
+    border-right: 0;
+    border-left: 0;
+ }
 
 
 ul li {
