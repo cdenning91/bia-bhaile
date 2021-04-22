@@ -114,10 +114,16 @@ h4 {
  .dropdown-menu {
     background-color: #fff);
     color: black;
-    border: 0.1em;
-    border-color: rgba(0, 0, 0, 0.2);
-
+    border: none;
  }
+ 
+ .dropdown-menu a {
+    font-size: 20px;
+    padding: 5px 10px;
+ }
+
+
+}
 
  .dropdown-item:hover {
      color: black;
@@ -140,6 +146,25 @@ ul li a {
     color: black;
 }
 
+
+/* CALLOUT */
+
+.callout-section {
+    color: white;
+    background-image: url(../images/roast-veg.jpeg);
+    background-size: cover;
+    background-repeat: none;
+
+}
+
+.callout-img {
+    width: 360px;
+    height: 360px;
+    background-image: url(../images/roast-veg.jpeg);
+    background-size: contain;
+    background-repeat: none;
+    
+}
 
 
 
