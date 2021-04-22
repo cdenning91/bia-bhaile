@@ -239,6 +239,16 @@ footer {
 }
 
 
+
+.fa-arrow-to-top:before {
+    content: "\f341";
+    font-size: 50px;
+}
+
+.fa-arrow-to-top:hover {
+    color: #fad02c;
+}
+
 .general-sub {
     padding-top: 10px;
 }
@@ -256,7 +266,7 @@ footer div h5 {
 }
 
 .navbar-footer {
-    justify-content: flex-end;
+    justify-content: left;
 }
 
 
@@ -264,4 +274,9 @@ footer div h5 {
     margin: 0;
     padding: 20px;
     text-align: center;
+}
+
+
+ul {
+    list-style: none;
 }
