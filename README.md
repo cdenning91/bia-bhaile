@@ -9,6 +9,8 @@ Bia Bhaile is a website for anyone with an interest in having a littel fun in th
 
 This website was designed to be viewed on multiple devices and can adapt with the users preferece. 
 
+The aim of this project is to create a user friendly community space. Easy to use space to view or download recipes, submit pictures or just get in touch. 
+
 # User Experience
 
 ### First Time User: 
@@ -104,9 +106,12 @@ Used to validate CSS - [Results](https://jigsaw.w3.org/css-validator/validator?u
 
 * Responsive - any user submittions on Contact or Subscribe direct the user back to the navigation when submitted.
 
+* Easy to find contact navigation
+
 #### Frequent User:
 
 * Social Media links clear in the footer
+* Easy to see send submissions & to view previous users pictures
 
 
 ## Deployment 
