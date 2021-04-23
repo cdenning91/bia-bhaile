@@ -143,6 +143,9 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 * Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
+## Testing 
 
+[Validator](https://validator.w3.org/)
+Used to 
 
 
