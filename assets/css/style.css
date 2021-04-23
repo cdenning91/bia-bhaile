@@ -26,6 +26,12 @@ body {
     width: 10em;
 }
 
+/* ICONS */
+
+.fa-download:hover {
+    color: #fff;
+}
+
 
 /* Headings */
 
@@ -221,6 +227,21 @@ ul li a {
 }
 
 
+/* RECIPE CONTENT */
+
+.recipe-img {
+    width: fit-content;
+    height: fit-content;
+    
+}
+
+section.container-fluid.recipe-container {
+   text-align: left;
+}
+
+
+
+
 /* FOOTER */
 
 footer {
@@ -280,3 +301,4 @@ footer div h5 {
 ul {
     list-style: none;
 }
+
