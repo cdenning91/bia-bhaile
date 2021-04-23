@@ -5,6 +5,10 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
+ul {
+    list-style: none;
+}
+
 /* Colours */
 
 
@@ -16,6 +20,7 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
     text-align: center;
     width: 5em;
+    border-radius: 1em;
 }
 
 .btn-search {
@@ -120,6 +125,16 @@ h4 {
     padding: 3px;
 }
 
+.nav-link i:hover {
+    color: #fad02c;
+}
+
+.top-icon {
+    font-size: 30px;
+}
+
+
+
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
@@ -206,11 +221,12 @@ ul li a {
 }
 .feature img {
     max-width: 75%;
+    border-radius: 5em;
 }
 
 .feature-heading {
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 /* BUTTONS*/
@@ -233,10 +249,27 @@ ul li a {
     width: fit-content;
     height: fit-content;
     
-}
 
 section.container-fluid.recipe-container {
    text-align: left;
+}
+
+/* ABOUT */
+
+div.about img {
+    padding: 10px;
+}
+
+div.about p {
+    padding: 20px 80px;
+    text-align: justify;
+
+}
+
+/* CONTACT FORM */
+
+.contact-form {
+    padding-bottom: 30px;
 }
 
 

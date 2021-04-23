@@ -1,20 +1,66 @@
-![bia bhaile logo]()
+
 
 # Bia Bhaile
 
-[text](https://link)
 
 Bia Bhaile is a website for anyone with an interest in having a littel fun in the kitchen. It's a relaxed take on a traditional cooking website.
 
 This website was designed to be viewed on multiple devices and can adapt with the users preferece. 
 
-Troubleshooting
+## Design
 
-issue with hover dropdown
-https://bootstrap-menu.com/detail-basic-hover.html
+### Colour Scheme 
 
-issue with toggle nav not showing on smaller screens
-https://stackoverflow.com/questions/36544961/bootstrap-navbar-toggle-not-showing-in-mobile
+Bia Bhaile's signature colour is a strong yellow (#fad02c) tied with white, black & light greys.
+
+### Typography
+
+I have chosen the elegant Raleway as the core font-family for Bia Bhaile as it simplistic & clear for better user experience. I have also included Sans-Serif incase there are any browser difficulties. 
+
+### Imagery
+
+Giving the nature of Bia Bhaile, I wanted to have vibrant & apatizing imagery throughout the site. Based on user experience I did not want to over crowd with picutres so that the main focus is drawn to the recipes. All imagery used is my own.
+
+## Features
+
+Responsive design
+Interactive elements
+
+## Technologies
+
+HTML5
+CSS3
+
+## Frameworks, Libraries & Programs Used
+
+[Bootstrap 5](https://getbootstrap.com/)
+Used to help configure some elements throughout the website.
+
+[Google Fonts](https://fonts.google.com/)
+Used to apply a custom font to the website.
+
+[Font Awesome](https://fontawesome.com/)
+Used to apply icons in footer & for download links
+
+[Canva](https://www.canva.com/)
+Used to create logo
+
+## Credits
+
+[Recipe for vegan mousse](https://www.jamieoliver.com/recipes/chocolate-recipes/dairy-free-chocolate-mousse/)
+
+### Troubleshooting
+
+I had an issue with hover dropdown menu which & found [this](https://bootstrap-menu.com/detail-basic-hover.html) site helpfully to figure out the issues I was having.
+
+I had an issue with toggle nav not showing on smaller screens & found some good advise from [this](https://stackoverflow.com/questions/36544961/bootstrap-navbar-toggle-not-showing-in-mobile) forum
+
+I worked with Bootstrap V5 for this project, I adapted & studied the documents available via [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) & applied what I had learned throughout the course. 
+
+
+## Bugs
+
+Recipe page - layout is flawed, issues with placement of containers
 
 
 
@@ -22,49 +68,3 @@ https://stackoverflow.com/questions/36544961/bootstrap-navbar-toggle-not-showing
 
 
 
-
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome cdenning91,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
