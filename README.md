@@ -104,7 +104,9 @@ Used to validate CSS - [Results](https://jigsaw.w3.org/css-validator/validator?u
 
 * Responsive - any user submittions on Contact or Subscribe direct the user back to the navigation when submitted.
 
+#### Frequent User:
 
+* Social Media links clear in the footer
 
 
 ## Deployment 
