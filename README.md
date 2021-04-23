@@ -81,25 +81,33 @@ Git was used for version control by utilizing the Gitpod terminal to commit to G
 [Github](https://github.com/)
 Used to store the projects code after being pushed from Git
 
-## Credits
-
-[Recipe for vegan mousse](https://www.jamieoliver.com/recipes/chocolate-recipes/dairy-free-chocolate-mousse/)
-
-### Troubleshooting
-
-I had an issue with hover dropdown menu which & found [this](https://bootstrap-menu.com/detail-basic-hover.html) site helpfully to figure out the issues I was having.
-
-I had an issue with toggle nav not showing on smaller screens & found some good advise from [this](https://stackoverflow.com/questions/36544961/bootstrap-navbar-toggle-not-showing-in-mobile) forum
-
-I worked with Bootstrap V5 for this project, I adapted & studied the documents available via [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) & applied what I had learned throughout the course. 
 
 
-## Bugs
+## Testing 
 
-Recipe page - layout is flawed, issues with placement of containers
+[Validator](https://validator.w3.org/)
+Used to validate HTML - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcdenning91.github.io%2Fbia-bhaile%2F)
+
+[Validator](https://jigsaw.w3.org/css-validator/)
+Used to validate CSS - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcdenning91.github.io%2Fbia-bhaile%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### Testing User Experience 
+
+#### First Time User:
+
+* User is immidately greeted with clear branding & user friendly navigation
+
+
+#### Returning User:
+
+* When navigated by an initial user, I received some feedback about the accessiblity for people with sight issues - at this time the dropdown menu had an almost transparent background (rgba 0, 0, 0, 0.5) which may have been harder to see so I adjusted this to be more user friendly with a white background. 
+
+* Responsive - any user submittions on Contact or Subscribe direct the user back to the navigation when submitted.
+
+
+
 
 ## Deployment 
-
 
 ### GitHub Pages
 
@@ -143,9 +151,20 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 * Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-## Testing 
 
-[Validator](https://validator.w3.org/)
-Used to 
+## Credits
+
+[Recipe for vegan mousse](https://www.jamieoliver.com/recipes/chocolate-recipes/dairy-free-chocolate-mousse/)
+
+### Troubleshooting
+
+I had an issue with hover dropdown menu which & found [this](https://bootstrap-menu.com/detail-basic-hover.html) site helpfully to figure out the issues I was having.
+
+I had an issue with toggle nav not showing on smaller screens & found some good advise from [this](https://stackoverflow.com/questions/36544961/bootstrap-navbar-toggle-not-showing-in-mobile) forum
+
+I worked with Bootstrap V5 for this project, I adapted & studied the documents available via [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) & applied what I had learned throughout the course. 
 
 
+## Bugs
+
+Recipe page - layout is flawed, issues with placement of containers
