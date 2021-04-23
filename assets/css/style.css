@@ -5,9 +5,6 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
-ul {
-    list-style: none;
-}
 
 /* Colours */
 
@@ -23,6 +20,8 @@ ul {
     border-radius: 1em;
 }
 
+
+
 .btn-search {
     width: 5em;
 }
@@ -31,11 +30,6 @@ ul {
     width: 10em;
 }
 
-/* ICONS */
-
-.fa-download:hover {
-    color: #fff;
-}
 
 
 /* Headings */
@@ -248,7 +242,7 @@ ul li a {
 .recipe-img {
     width: fit-content;
     height: fit-content;
-    
+}
 
 section.container-fluid.recipe-container {
    text-align: left;
@@ -281,26 +275,8 @@ footer {
     background-color: rgb(196, 196, 196);
     padding: 0;
     margin: 0;
+    width: 100%;
     color: black;
-}
-
-.social-icon {
-    font-size: 30px;
-}
-
-.social-icon:hover {
-    color: #fad02c;
-}
-
-
-
-.fa-arrow-to-top:before {
-    content: "\f341";
-    font-size: 50px;
-}
-
-.fa-arrow-to-top:hover {
-    color: #fad02c;
 }
 
 .general-sub {
@@ -324,6 +300,7 @@ footer div h5 {
 }
 
 
+
 .footer-note {
     margin: 0;
     padding: 20px;
@@ -334,4 +311,31 @@ footer div h5 {
 ul {
     list-style: none;
 }
+
+
+/* ICONS */
+
+.fa-download:hover {
+    color: #fff;
+}
+
+
+.social-icon {
+    font-size: 30px;
+}
+
+.social-icon:hover {
+    color: #fad02c;
+}
+
+
+.fa-arrow-to-top:before {
+    content: "\f341";
+    font-size: 50px;
+}
+
+.fa-arrow-to-top:hover {
+    color: #fad02c;
+}
+
 

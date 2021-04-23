@@ -37,13 +37,22 @@ CSS3
 Used to help configure some elements throughout the website.
 
 [Google Fonts](https://fonts.google.com/)
-Used to apply a custom font to the website.
+Used to apply a custom font to the website
 
 [Font Awesome](https://fontawesome.com/)
 Used to apply icons in footer & for download links
 
 [Canva](https://www.canva.com/)
 Used to create logo
+
+[Balsamiq](https://balsamiq.com/)
+Used to create Wireframes
+
+[Git](https://git-scm.com/)
+Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub
+
+[Github](https://github.com/)
+Used to store the projects code after being pushed from Git
 
 ## Credits
 
@@ -61,6 +70,8 @@ I worked with Bootstrap V5 for this project, I adapted & studied the documents a
 ## Bugs
 
 Recipe page - layout is flawed, issues with placement of containers
+
+Footer - something altered my formatting for the footer, hover on the icons & buttons should be yellow with white text
 
 
 
