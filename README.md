@@ -1,4 +1,5 @@
 
+View the live project [here](https://cdenning91.github.io/bia-bhaile/)
 
 
 # Bia Bhaile
@@ -7,6 +8,27 @@
 Bia Bhaile is a website for anyone with an interest in having a littel fun in the kitchen. It's a relaxed take on a traditional cooking website.
 
 This website was designed to be viewed on multiple devices and can adapt with the users preferece. 
+
+# User Experience
+
+### First Time User: 
+
+* Easy to navigate
+* Easy to understand website concept
+* Find the website an attractive space to want to revisit
+
+### Returning User:
+
+* Explore Features
+* Follow Social Media
+* Download recipes
+
+### Frequent User:
+
+* Very comfortable with navigation & website layout
+* Subscribe to newsletter
+* Contribute with recipes & social media shares
+
 
 ## Design
 
@@ -21,6 +43,10 @@ I have chosen the elegant Raleway as the core font-family for Bia Bhaile as it s
 ### Imagery
 
 Giving the nature of Bia Bhaile, I wanted to have vibrant & apatizing imagery throughout the site. Based on user experience I did not want to over crowd with picutres so that the main focus is drawn to the recipes. All imagery used is my own.
+
+## Wireframes
+
+[Home]()
 
 ## Features
 
@@ -79,15 +105,43 @@ Recipe page - layout is flawed, issues with placement of containers
 
 The project was deployed to GitHub Pages using the following steps...
 
-Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-Scroll down the Settings page until you locate the "GitHub Pages" Section.
-Under "Source", click the dropdown called "None" and select "Master Branch".
-The page will automatically refresh.
-Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+* Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+* At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+* Scroll down the Settings page until you locate the "GitHub Pages" Section.
+* Under "Source", click the dropdown called "None" and select "Master Branch".
+* The page will automatically refresh.
+* Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
 
+## Forking the GitHub Repository
 
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+* Log in to GitHub and locate the GitHub Repository
+* At the top of the Repository (not top of page) just above the "Settings" 
+* Button on the menu, locate the "Fork" Button.
+* You should now have a copy of the original repository in your GitHub account.
+
+## Making a Local Clone
+* Log in to GitHub and locate the GitHub Repository
+* Under the repository name, click "Clone or download".
+* To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+* Open Git Bash
+* Change the current working directory to the location where you want the cloned directory to be made.
+* Type git clone, and then paste the URL you copied in Step 3.
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+* Press Enter. Your local clone will be created.
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+
+* Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 
 
